@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan BILOUNGA — Portfolio BTS SIO SISR</title>
+    <!-- Framework Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Icons FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- BARRE DE NAVIGATION -->
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur border-b border-slate-800 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-400">NB<span class="text-white">.sisr</span></a>
+            <div class="space-x-6 hidden md:flex text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-blue-400 transition">À propos</a>
+                <a href="#experiences" class="hover:text-blue-400 transition">Expériences</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Compétences</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projets</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- EN-TÊTE / HERO SECTION -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-4">
+        <div class="max-w-4xl text-center space-y-6">
+            <span class="bg-blue-500/10 text-blue-400 text-xs font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full border border-blue-500/20">
+                BTS SIO Option SISR
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight">
+                Nathan BILOUNGA
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
+                Futur Administrateur Systèmes, Réseaux & Cybersécurité. Expérience confirmée en environnement aéronautique industriel.
+            </p>
+            <div class="flex justify-center gap-4 pt-4">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg shadow-blue-500/20">
+                    Me contacter
+                </a>
+                <a href="#experiences" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3 rounded-lg border border-slate-700 transition">
+                    Voir mes stages
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="about" class="py-20 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2 flex items-center gap-3">
+                <i class="fa-solid fa-user text-blue-400"></i> À propos de moi
+            </h2>
+            <p class="text-slate-300 leading-relaxed">
+                Étudiant en BTS SIO (Solutions d'Infrastructure, Systèmes et Réseaux) à Toulouse, je me passionne pour la conception, le maintien en condition opérationnelle et la sécurisation des infrastructures informatiques.
+            </p>
+            <p class="text-slate-300 leading-relaxed mt-4">
+                Mes expériences professionnelles au sein du service IT de groupes majeurs de l'aéronautique comme <strong class="text-white">Airbus</strong> et <strong class="text-white">Howmet Aerospace</strong> m'ont permis d'acquérir une rigueur industrielle, une excellente méthodologie de résolution d'incidents et une solide maîtrise des environnements système et réseau complexes.
+            </p>
+        </div>
+    </section>
+
+    <!-- EXPÉRIENCES (AIRBUS & HOWMET) -->
+    <section id="experiences" class="py-20">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-white mb-10 border-b border-slate-800 pb-2 flex items-center gap-3">
+                <i class="fa-solid fa-briefcase text-blue-400"></i> Expériences professionnelles
+            </h2>
+
+            <div class="space-y-8">
+                <!-- AIRBUS -->
+                <div class="bg-slate-800 border border-slate-700 p-6 rounded-xl hover:border-blue-500/50 transition">
+                    <div class="flex justify-between items-start flex-wrap gap-2 mb-2">
+                        <h3 class="text-xl font-bold text-white">Stagiaire Service IT & Infrastructure</h3>
+                        <span class="text-xs bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full border border-blue-500/30">Airbus</span>
+                    </div>
+                    <p class="text-sm text-slate-400 mb-4">Toulouse, France</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                        <li>Assistance et support technique N1/N2 aux utilisateurs du parc informatique.</li>
+                        <li>Masterisation, déploiement et configuration sécurisée de postes de travail.</li>
+                        <li>Gestion des identités et des droits d'accès au domaine via <strong>Active Directory</strong>.</li>
+                        <li>Résolution et suivi des tickets d'incidents (ServiceNow).</li>
+                    </ul>
+                </div>
+
+                <!-- HOWMET AEROSPACE -->
+                <div class="bg-slate-800 border border-slate-700 p-6 rounded-xl hover:border-blue-500/50 transition">
+                    <div class="flex justify-between items-start flex-wrap gap-2 mb-2">
+                        <h3 class="text-xl font-bold text-white">Stagiaire Support IT & Réseaux</h3>
+                        <span class="text-xs bg-amber-500/20 text-amber-300 px-3 py-1 rounded-full border border-amber-500/30">Howmet Aerospace</span>
+                    </div>
+                    <p class="text-sm text-slate-400 mb-4">Toulouse, France</p>
+                    <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                        <li>Maintenance préventive et curative des équipements informatiques de production et de bureau.</li>
+                        <li>Opérations de câblage, brassage et suivi des équipements réseau (switchs, baies).</li>
+                        <li>Rédaction de procédures techniques d'installation et de dépannage.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section id="skills" class="py-20 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-white mb-10 border-b border-slate-700 pb-2 flex items-center gap-3">
+                <i class="fa-solid fa-gears text-blue-400"></i> Compétences SISR
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Systèmes -->
+                <div class="bg-slate-900/60 p-5 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-3"><i class="fa-brands fa-windows mr-2"></i> Administration Système</h3>
+                    <p class="text-sm text-slate-300">Windows Server (AD DS, DNS, DHCP), Linux (Debian, Ubuntu), Virtualisation (VMware, Hyper-V, Proxmox).</p>
+                </div>
+
+                <!-- Réseaux -->
+                <div class="bg-slate-900/60 p-5 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-3"><i class="fa-solid fa-network-wired mr-2"></i> Réseaux & Sécurité</h3>
+                    <p class="text-sm text-slate-300">Adressage IPv4/IPv6, VLAN, Routage, Pare-feu, VPN, Cisco Packet Tracer.</p>
+                </div>
+
+                <!-- Outils & Scripting -->
+                <div class="bg-slate-900/60 p-5 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-3"><i class="fa-solid fa-code mr-2"></i> BDD & Scripting</h3>
+                    <p class="text-sm text-slate-300">SQL (MySQL/PostgreSQL, Triggers, Vues), Scripting Bash & PowerShell basique.</p>
+                </div>
+
+                <!-- Support & ITIL -->
+                <div class="bg-slate-900/60 p-5 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-3"><i class="fa-solid fa-headset mr-2"></i> Gestion de Parc</h3>
+                    <p class="text-sm text-slate-300">GLPI, Ticketing (ServiceNow), Masterisation (WDS/MDT), Inventaire matériel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT -->
+    <footer id="contact" class="py-12 border-t border-slate-800 text-center">
+        <div class="max-w-4xl mx-auto px-4 space-y-4">
+            <h2 class="text-xl font-bold text-white">Me contacter</h2>
+            <p class="text-sm text-slate-400">À la recherche d'opportunités en administration systèmes et réseaux.</p>
+            <div class="flex justify-center gap-6 text-slate-300 text-xl pt-2">
+                <a href="mailto:nathan.bilounga@email.com" class="hover:text-blue-400 transition" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" class="hover:text-blue-400 transition" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="hover:text-blue-400 transition" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="text-xs text-slate-500 pt-6">© 2026 Nathan BILOUNGA — BTS SIO SISR</p>
+        </div>
+    </footer>
+
+</body>
+</html>
